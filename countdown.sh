@@ -11,12 +11,12 @@ then
   done
   '
   I=$1
-  while [[ $1 -ge 0]]
-  do 
+  while [[ $1 -ge 0 ]] 
+  do
    echo $I
    (( I-- ))
    sleep 1
-   done
- else 
+ done
+else 
   echo Include a positive integer as the first argument.
 fi
